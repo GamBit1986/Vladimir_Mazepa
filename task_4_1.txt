@@ -1,0 +1,60 @@
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.12
+idna==3.3
+requests==2.27.1
+urllib3==1.26.9
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip show pillow
+WARNING: Package(s) not found: pillow
+
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip install pillow
+Collecting pillow
+  Downloading Pillow-9.1.0-cp39-cp39-win_amd64.whl (3.3 MB)
+     ---------------------------------------- 3.3/3.3 MB 687.5 kB/s eta 0:00:00
+Installing collected packages: pillow
+Successfully installed pillow-9.1.0
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip show pillow
+Name: Pillow
+Version: 9.1.0
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\users\владимир\appdata\local\programs\python\python39\lib\site-packages
+Requires:
+Required-by:
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>python -m venv virt
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>"virt/scripts/activate.bat"
+
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip freeze
+
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip show pillow
+WARNING: Package(s) not found: pillow
+
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip install pillow==8.4
+Collecting pillow==8.4
+  Downloading Pillow-8.4.0-cp39-cp39-win_amd64.whl (3.2 MB)
+     ---------------------------------------- 3.2/3.2 MB 4.2 MB/s eta 0:00:00
+Installing collected packages: pillow
+Successfully installed pillow-8.4.0
+
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>зшз ырщц зшддщц
+"зшз" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>pip show pillow
+Name: Pillow
+Version: 8.4.0
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\users\владимир\appdata\local\programs\python\python39\virt\lib\site-packages
+Requires:
+Required-by:
+
+(virt) C:\Users\Владимир\AppData\Local\Programs\Python\Python39>deactivate
+C:\Users\Владимир\AppData\Local\Programs\Python\Python39>
